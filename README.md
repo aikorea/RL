@@ -13,5 +13,7 @@
 ## 여타 Arcade
  * 팩맨 (Ms.Pac-man) (https://en.wikipedia.org/wiki/Ms._Pac-Man)
  * 콘트라 (https://goo.gl/bT2vmC)
- 
-  
+
+## 카드게임
+ * Poker(hold'em) - SmooCT by D. Silver (http://www.aaai.org/ocs/index.php/WS/AAAIW14/paper/viewFile/8811/8351)
+ * 하스스톤?
