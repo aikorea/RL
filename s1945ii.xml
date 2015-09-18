@@ -1,0 +1,146 @@
+<mamecheat version="1">
+
+  <cheat desc="Infinite Credits">
+    <script state="run">
+      <action>maincpu.pb@600C3BE=09</action>
+    </script>
+  </cheat>
+
+  <cheat desc="Select Starting Stage">
+    <parameter min="1" max="8" step="1"/>
+    <script state="change">
+      <action>maincpu.pb@600C674=(param-1)</action>
+    </script>
+  </cheat>
+
+  <cheat desc="Select 1st Stage">
+    <parameter>
+      <item value="0x00">Huge Flying Boat</item>
+      <item value="0x01">Super Carrier</item>
+      <item value="0x02">Armored Train</item>
+      <item value="0x03">Battle Air Ship</item>
+    </parameter>
+    <script state="change">
+      <action>maincpu.pb@600C664=param</action>
+    </script>
+  </cheat>
+
+  <cheat desc="Select 2nd Stage">
+    <parameter>
+      <item value="0x00">Huge Flying Boat</item>
+      <item value="0x01">Super Carrier</item>
+      <item value="0x02">Armored Train</item>
+    </parameter>
+    <script state="change">
+      <action>maincpu.pb@600C665=param</action>
+    </script>
+  </cheat>
+
+  <cheat desc="Select 3rd Stage">
+    <parameter>
+      <item value="0x00">Huge Flying Boat</item>
+      <item value="0x01">Super Carrier</item>
+      <item value="0x02">Armored Train</item>
+      <item value="0x03">Battle Air Ship</item>
+    </parameter>
+    <script state="change">
+      <action>maincpu.pb@600C666=param</action>
+    </script>
+  </cheat>
+
+  <cheat desc="Select 4th Stage">
+    <parameter>
+      <item value="0x00">Huge Flying Boat</item>
+      <item value="0x01">Super Carrier</item>
+      <item value="0x02">Armored Train</item>
+      <item value="0x03">Battle Air Ship</item>
+    </parameter>
+    <script state="change">
+      <action>maincpu.pb@600C667=param</action>
+    </script>
+  </cheat>
+
+  <cheat desc=" "/>
+
+  <cheat desc="P1 Infinite Lives">
+    <script state="run">
+      <action>maincpu.pb@60103C1=03</action>
+    </script>
+  </cheat>
+
+  <cheat desc="P1 Infinite Bombs">
+    <script state="run">
+      <action>maincpu.pb@60103C3=09</action>
+    </script>
+  </cheat>
+
+  <cheat desc="P1 Maximum Fire Power">
+    <script state="run">
+      <action>maincpu.pb@60103E7=04</action>
+    </script>
+  </cheat>
+
+  <cheat desc="P1 Invincibility 'ON'">
+    <script state="run">
+      <action>maincpu.pb@60103FA=01</action>
+      <action>maincpu.pb@60103FB=3F</action>
+    </script>
+  </cheat>
+
+  <cheat desc="P1 Invincibility 'OFF'">
+    <script state="on">
+      <action>maincpu.pb@60103FA=00</action>
+      <action>maincpu.pb@60103FB=01</action>
+    </script>
+  </cheat>
+
+  <cheat desc="P1 Always Max Extra weapon">
+    <script state="run">
+      <action>maincpu.pb@6010414=65</action>
+      <action>maincpu.pb@6010415=90</action>
+    </script>
+  </cheat>
+
+  <cheat desc=" "/>
+
+  <cheat desc="P2 Infinite Lives">
+    <script state="run">
+      <action>maincpu.pb@601045D=03</action>
+    </script>
+  </cheat>
+
+  <cheat desc="P2 Infinite Bombs">
+    <script state="run">
+      <action>maincpu.pb@601045F=09</action>
+    </script>
+  </cheat>
+
+  <cheat desc="P2 Maximum Fire Power">
+    <script state="run">
+      <action>maincpu.pb@6010483=04</action>
+    </script>
+  </cheat>
+
+  <cheat desc="P2 Invincibility 'ON'">
+    <script state="run">
+      <action>maincpu.pb@6010496=01</action>
+      <action>maincpu.pb@6010497=3F</action>
+    </script>
+  </cheat>
+
+  <cheat desc="P2 Invincibility 'OFF'">
+    <script state="on">
+      <action>maincpu.pb@6010496=00</action>
+      <action>maincpu.pb@6010497=01</action>
+    </script>
+  </cheat>
+
+  <cheat desc="P2 Always Max Extra weapon">
+    <script state="run">
+      <action>maincpu.pb@60104B0=65</action>
+      <action>maincpu.pb@60104B1=90</action>
+    </script>
+  </cheat>
+
+</mamecheat>
+<!-- Cheat file downloaded from http://www.mamecheat.co.uk, see cheat.txt for list of contributors. -->
